@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/walpaper"
+    tools:context=".Details_Commandes">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="Details Fournisseurs"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="Nom : " />
+
+
+
+
+    <TextView
+        android:id="@+id/textEntre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="text"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:text="Entreprise:" />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        android:text="Details Clients"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textNomcli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="25dp"
+        android:text="Nom:" />
+
+
+
+    <TextView
+        android:id="@+id/textPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="25dp"
+        android:text="Prenom:" />
+
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="23"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25dp"
+        android:text="Email:" />
+
+
+
+    <TextView
+        android:id="@+id/textTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="25dp"
+        android:text="Telephone:" />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:text="Details Commandes"
+        android:layout_marginLeft="25dp"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/textNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="25dp"
+        android:text="N° Commande:" />
+
+
+
+    <TextView
+        android:id="@+id/textProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="25dp"
+        android:text="Nom Produit:" />
+
+
+
+    <TextView
+        android:id="@+id/textPoids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="24"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="25dp"
+        android:text="Poids produits:" />
+
+
+<!--
+    <Button
+        android:id="@+id/confirmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#187bcd"
+        android:textColor="#ffffff"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="50dp"
+        android:text="Confirmer" />
+
+        -->
+
+    <Button
+        android:id="@+id/modifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d3d3d3"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="50dp"
+        android:text="Modifier" />
+</FrameLayout>

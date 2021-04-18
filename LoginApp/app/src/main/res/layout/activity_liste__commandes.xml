@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/walpaper"
+    android:padding="10dp"
+    tools:context=".Liste_Commandes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des commandes"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+    <ListView
+        android:id="@+id/listv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<!--
+    <Button
+        android:id="@+id/filtrer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#187bcd"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:text="Filtrer"/>
+
+    <EditText
+        android:id="@+id/recherche"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#1B1A1A" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#187bcd"
+        android:layout_marginTop="80dp"
+        android:textColor="#ffffff"
+        android:text="Confirmer"/>
+-->
+</LinearLayout>

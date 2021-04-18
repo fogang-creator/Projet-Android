@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "57937374755",
+    "project_id": "loginapp-3069e",
+    "storage_bucket": "loginapp-3069e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57937374755:android:e8273ea3325daca6670b96",
+        "android_client_info": {
+          "package_name": "net.smallacademy.authenticatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57937374755-hmh9h2qeamr2a1pa96qgi56g712gstd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXx_h6_36K_ngiHuFV4EMIAUN2VJB2b5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57937374755-hmh9h2qeamr2a1pa96qgi56g712gstd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
